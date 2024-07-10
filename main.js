@@ -1,4 +1,4 @@
-$('.formf').on('submit', function (event) {
+$('.formfa').on('submit', function (event) {
 
     event.stopPropagation();
     event.preventDefault();
