@@ -1,0 +1,843 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    background-color: #15101C;
+    margin: 0;
+    padding: 0;
+        font-size: 15px;
+}
+
+
+.mainhead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftconthead{
+    width: 102px;
+    height: 102px;
+    flex-shrink: 0;
+    filter: drop-shadow(0px 4px 4px rgba(89, 32, 253, 0.42));
+    margin-left: 57px;
+}
+
+.sviz{
+    margin-right: 100px;
+    margin-top: 15px;
+    border-radius: 100px;
+    border: 1px solid #1A094C;
+    background-color: #1A094C;
+    display: inline-flex;
+    align-items: center;
+    padding: 9px 20px;
+    gap: 10px;
+    height: 50px;
+    cursor: pointer;
+ }
+
+    .sviz>p{
+        color: #FFF;
+        text-align: center;
+        font-family: Jost;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px; /* 110% */
+    }
+
+/* Главный селектор */
+
+.fonoviya{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+
+.fonoviya>img{
+    position: relative;
+    z-index: 1;
+}
+
+.glavstr{
+    position: relative; 
+    top: -600px;
+    height: 100px;
+    z-index: 10;
+}
+
+
+
+.textglav{
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    margin-left: 120px;
+}
+
+.glavniyatext>p{
+    color: #FFF;
+    font-family: Jost;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -0.293px;
+}
+.glavniyatext>p>span{
+    color: #5920FD;
+    font-family: Jost;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -0.293px;
+}
+.seriytext{
+    color: rgba(255, 255, 255, 0.40);
+    font-family: Jost;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 26px */
+    letter-spacing: -0.293px;
+}
+
+.radiusformals{
+    display: flex;
+    flex-direction: column;
+}
+
+.toprow{
+    display: flex;
+}
+
+.onehkl, .sellerrec{
+    border-radius: 100px;
+    border: 1px solid #FFF;
+}
+
+.fiveletrunk{
+    border-radius: 100px;
+    border: 1px solid #FFF;
+    margin-right: 10px;
+    height: auto;
+    text-align: center;
+}
+
+.sellerrec{
+    margin-top: 16px;
+    height: 1%;
+    width: 20%;
+}
+
+.fiveletrunk > p, .onehkl > p, .sellerrec > p {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+/* второй селектор */
+.toptovarovname{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 50px;
+    width: 500px;
+    height: 250px;
+}
+
+    .nametop{
+        color: #FFF;
+        font-family: Jost;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%; /* 45px */
+        letter-spacing: -0.293px;
+    }
+
+    .opistop{
+        color: rgba(255, 255, 255, 0.40);
+        font-family: Jost;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%; /* 26px */
+        letter-spacing: -0.293px;
+    }
+
+    .swiper{
+        width: 1000px;
+        height: 100%;
+      }
+      .swiper-slide{
+        text-align: center;
+        font-size: 18px;
+        background-color: #15101C;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .swiper-slide img{
+        width: 58%;
+        object-fit: cover;
+      }
+      .swiper-button-next, .swiper-rtl .swiper-button-prev{
+        margin-top: 500px;
+        right: 140px !important; 
+        left: auto;
+      }
+      .swiper-button-prev, .swiper-rtl .swiper-button-next{
+        left: 140px !important; 
+        right: auto;
+      }
+
+      #verh{
+        margin-top: 61em;
+      }
+
+      #vniz{
+        margin-top: 61em;
+      }
+
+.card{
+    display: flex;
+    flex-direction: row;
+    background-color: #241E2D;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.card>img{
+    border-radius: 20px;
+}
+    
+.mainflexcard{
+    display: flex;
+    flex-direction: column;
+    margin-top: 135px;
+    margin-left: 20px;
+}
+
+.namecard{
+    color: #FFF;
+    font-family: Jost;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 30px */
+    letter-spacing: -0.293px;
+}
+
+.opiscard{
+    color: rgba(255, 255, 255, 0.40);
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 20px */
+    letter-spacing: -0.293px;
+}
+
+        .svizcard{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100px;
+            border: 1px solid #FFF;
+            background-color: #241E2D;
+            width: 385px;
+            height: 40px;
+            cursor: pointer;
+        }
+    
+        .svizcard>p{
+            color: #FFF;
+            text-align: center;
+            font-family: Jost;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 22px;
+        }
+
+/* третий селектор "Наши услуги" */
+.uslugname{
+    position: relative;
+    z-index: 100;
+}
+.lineuslug{
+    position: relative; 
+    top: -90px;
+    margin: 0 auto;
+    width: 300px;
+    align-content: center;
+}
+
+    .uslugname>p{
+        color: #FFF;
+        text-align: center;
+        font-family: Jost;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%;
+        letter-spacing: -0.293px;
+    }
+
+
+.mainuslugcard{
+    margin-left: 65px;
+}
+
+    .uslugcards, .uslugcardstwo{
+        display: flex;
+        flex-direction: row;
+        margin-left: 50px;
+        margin-top: 25px;
+    }
+
+        .carduslugone, .carduslugtwo, .carduslugthree, .carduslugfour{
+            background-color: #241E2D;
+            border-radius: 20px;
+            height: 494px;
+        }
+
+        .carduslugone{
+            width: 548px;
+            flex-shrink: 0;
+        }
+            .carduslugone>img{
+                width: 548px;
+            }
+
+        .carduslugtwo{
+            width: 1114px;
+            margin-left: 15px;
+        }
+
+            .carduslugtwo>img{
+                width: 1114px;
+            }
+
+        .carduslugthree{
+            width: 1087px;
+        }
+
+            .carduslugthree>img{
+                width: 1087px;
+                height: 494px;
+            }
+
+        .carduslugfour{
+            width: 572px;
+            margin-left: 15px;
+        }
+
+            .carduslugfour>img{
+                width: 572px;
+                height: 494px;
+            }
+
+/* Описание карточек */
+
+.menucardsuslug{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+        z-index: 101;
+        top: -10em;
+    margin-left: 15px;
+}
+    .carduslugone>img{
+        position: relative;
+        z-index: 100;
+    }
+
+    .cardbtnuslug{
+        display: flex;
+        border-radius: 1000px;
+        background: #1A094C;
+        border: none;
+        width: 257px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+        .cardbtnuslug>p{
+            color: #5920FD;
+            font-family: Jost;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 22px;
+        }
+
+            #poshiv{
+                width: 290px;
+            }
+
+    .nameuslugcard{
+        margin-bottom: -43px;
+    }
+
+    .nameuslugcard>p{
+        color: #FFF;
+        font-family: Jost;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 100%;
+        letter-spacing: -0.293px;
+    }
+
+    .opisuslugcard>p{
+        color: rgba(255, 255, 255, 0.40);
+        font-family: Jost;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: -0.293px;
+    }
+
+
+/* Четветртый селектор */
+.chtogovorit>p{
+    color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -0.293px;
+}
+
+.glavotziv{
+    display: flex;
+    flex-direction: row;
+}
+
+.onemainotziv, .twomainotziv{
+    display: flex;
+    flex-direction: column;
+}
+
+.onemainotziv{
+    margin-left: 119px 
+}
+
+.otzivone, .otzivtwo, .otzivthree, .otzivfour{
+    border-radius: 20px;
+    background-color: #241E2D;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.otzivone{
+    width: 657px; 
+    height: 404px;
+}
+    .mainnameandznazok{
+        display: flex;
+        flex-direction: row;
+        height: 70px;
+        
+    }
+    .znazok{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-radius: 50px;
+        border: 1px solid #FFF;
+        width: 125px;
+        height: 39px;
+        margin-left: 15px;
+        margin-top: 23px;
+    }
+    .znazok>p{
+        margin-left: 5px;
+        color: #FFF;
+        font-family: Jost;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 100%;
+        letter-spacing: -0.293px;
+    }
+
+    .textotzivname{
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+
+    .textotzivname>p{
+        color: #FFF;
+        font-family: Jost;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 100%; /* 30px */
+        letter-spacing: -0.293px;
+    }
+
+.opisotziv{
+    margin-left: 15px;
+}
+
+.opisotziv>p{
+    color: rgba(255, 255, 255, 0.40);
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 20px */
+    letter-spacing: -0.293px;
+}
+
+#clas{
+    width: 9em;
+}
+
+#threbor{
+    width: 10em;
+}
+
+
+.otzivtwo{
+    width: 657px;
+    height: 222px;
+    margin-top: 15px;
+}
+
+.twomainotziv{
+    margin-left: 15px;
+}
+
+        .otzivthree{
+            width: 999px;
+            height: 243px;
+        }
+
+        .otzivfour{
+            width: 999px;
+            height: 383px;
+            margin-top: 15px;
+        }
+
+
+/* Пятый селектор */
+.vsedlyvas{
+    position: relative;
+    z-index: 100;
+
+}
+
+    .vsedlyvas>p{
+        color: #FFF;
+        text-align: center;
+        font-family: Jost;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%;
+        letter-spacing: -0.293px;
+    }
+    
+    .svizatdiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 18px;
+    }
+
+    .svizat{
+        border-radius: 100px;
+        border: 1px solid #1A094C;
+        background-color: #1A094C;
+        width: 271px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    
+    .svizat>p{
+        color: #521EE6;
+        font-family: Jost;
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px;
+    }
+    
+.linevas{
+    position: relative; 
+    top: -40px;
+    margin: 0 auto;
+    width: 300px;
+    align-content: center;
+    left: 22em;
+    z-index: 101;
+}
+
+.linewi{
+    display: flex;
+    justify-content: space-between;
+}
+
+.linewi>img{
+    position: relative;
+    z-index: 1;
+}
+
+.mainstdk{
+    display: flex;
+    flex-direction: row;
+    margin-left: 119px;
+    position: relative; 
+    top: -600px;
+    height: 100px;
+    z-index: 10;
+}
+
+.contact{
+    margin-right: 2.8em;
+}
+
+        .contactname{
+            color: #FFF;
+            font-family: Jost;
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 100%; 
+            letter-spacing: -0.293px;
+        }
+
+            .opisname{
+                color: rgba(255, 255, 255, 0.40);
+                font-family: Jost;
+                font-size: 26px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 100%;
+                letter-spacing: -0.293px;
+            }
+
+                .svizcontact{
+                    border-radius: 100px;
+                    border: 1px solid #1A094C;
+                    background-color: #1A094C;
+                    width: 20em;
+                    height: 4.5em;
+                    cursor: pointer;
+                }
+
+                    .svizcontact>p{
+                        color: #5920FD;
+                        text-align: center;
+                        font-family: Jost;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 22px;
+                    }
+
+.fotofor>img{
+    mix-blend-mode: soft-light;
+    border-radius: 20px;
+}
+
+.iconvktginst{
+    position: relative;
+    top: 90px;
+    left: 85px;
+}
+
+.vkicon, .tgicon, .insticon{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.vkicon>a, .tgicon>a, .insticon>a{
+    margin-left: 12px;
+    color: #FFF;
+    text-decoration: none;
+    font-family: Jost;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: -0.293px;
+    margin-top: 15px;
+}
+
+
+/* футер */
+
+
+
+.linefot{
+        border-bottom: 1px solid rgb(48, 48, 48); /* Параметры линии */
+}
+
+
+.footerhead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerleftconthead{
+    width: 102px;
+    height: 102px;
+    flex-shrink: 0;
+    margin-left: 57px;
+    display: flex;
+    flex-direction: row;
+}
+
+.imgfot{
+    filter: drop-shadow(0px 4px 4px rgba(89, 32, 253, 0.42));
+}
+
+.allrights{
+    margin-left: 2.5em;
+
+}
+
+.allrights>p{
+    height: 50px;
+    width: 100px;
+    color: #FFF;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+}
+
+.fotsviz{
+    margin-right: 100px;
+    margin-top: 15px;
+    border-radius: 100px;
+    border: 1px solid #1A094C;
+    background-color: #1A094C;
+    display: inline-flex;
+    align-items: center;
+    padding: 9px 20px;
+    gap: 10px;
+    height: 50px;
+    cursor: pointer;
+ }
+
+    .fotsviz>p{
+        color: #5920FD;
+        text-align: center;
+        font-family: Jost;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px; /* 110% */
+    }
+
+
+
+/* окно заявки */
+.pop_up{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgb(0, 0, 0, .8);
+    z-index: 150;
+}
+
+.pop_up.active{
+    display: block;
+}
+
+.pop_up_container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.pop_up_body{
+    margin: auto;
+    width: 500px;
+    background-color: #FFF;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 15px 110px 15px;
+    position: relative;
+}
+
+.pop_up_body p{
+    font-size: 28px;
+    font-family: Jost;
+    font-weight: 600;
+    color: #22262D;
+    margin-bottom: 40px;
+}
+
+.pop_up_body input{
+    display: block;
+    margin: 25px auto 0px auto;
+    width: 330px;
+    padding: 17px 20px;
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    border: none;
+    font-family: Jost;
+    font-weight: 500;
+    font-size: 18px;
+    color: #89909f;
+}
+
+.pop_up_body input:focus{
+    outline: none;
+}
+
+.pop_up_body button{
+    cursor: pointer;
+    display: block;
+    width: 330px;
+    margin: 60px auto 0px auto;
+    padding: 20px 0px;
+    font-family: Jost;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    color: #FFF;
+    border-radius: 10px;
+    background-color: #660303;
+}
+
+.pop_up_close{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 21px;
+    cursor: pointer;
+}
+

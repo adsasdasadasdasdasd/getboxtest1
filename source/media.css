@@ -1,0 +1,218 @@
+@media (min-width: 1200px) and (max-width: 1300px){
+    .rightfon{
+       display: none;
+    }
+    .leftfon{
+        margin-top: 10em;
+    }
+    #verh{
+        margin-top: 53.5em;
+    }
+    #vniz{
+        margin-top: 53.5em;
+        margin-right: 5em;
+    }
+    .mainuslugcard{
+        margin-left: 65px;
+    }
+    .uslugcards, .uslugcardstwo{
+        margin-left: 12px;
+    }
+    .carduslugtwo{
+        width: 548px;
+    }
+        .carduslugtwo>img{
+            width: 548px;
+            height: 484px;
+        }
+    .carduslugthree{
+        width: 548px;
+    }   
+        .carduslugthree>img{
+            width: 548px;
+        }
+    .carduslugfour{
+        width: 548px;
+        height: 484px;
+    }
+        .carduslugfour>img{
+            width: 548px;
+            height: 484px;
+        }
+    .menucardsuslug{
+        top: -11em;
+    }
+        #fbofbs{
+            top: -14em;
+        }
+    .glavotziv{
+        flex-direction: column;
+    }
+    .onemainotziv{
+        margin-left: 345px;
+    }
+    .otzivone{
+        height: 445px;
+    }
+    .otzivtwo{
+        width: 657px;
+        height: 404px;
+        margin-top: 15px;
+    }
+    .twomainotziv{
+        margin-left: 345px;
+        margin-top: 15px;
+    }
+
+    .otzivthree{
+        width: 657px;
+        height: 404px;
+    }
+    .otzivfour{
+        width: 657px;
+        height: 600px;
+    }
+    .mainstdk{
+        margin-left: 100px;
+    }
+    .fotofor{
+        display: none;
+    }
+    #rightlinefot{
+      right: 60px;
+    }
+    .linefot{
+        width: 1135px;
+    }
+
+    .textglav{
+        width: 1200px;
+    }
+    .glavniyatext{
+        width: 1200px;
+    }
+
+}
+
+@media (min-width: 320){
+    .rightfon{
+        display: none;
+     }
+     .leftfon{
+        margin-top: 10em;
+    }
+    .sviz{
+        margin-left: 60.5em;
+    }
+    .sellerrec{
+        width: 20em;
+    }
+    .swiper{
+        margin-left: 5em;
+    }
+    .uslugname{
+        margin-left: 28.4em;
+    }
+    .lineuslug{
+        margin-left: 27.4em;
+    }
+    .mainuslugcard{
+        margin-left: 1px;
+    }
+    .uslugcards, .uslugcardstwo{
+        margin-left: 12px;
+    }
+    .carduslugtwo{
+        width: 548px;
+    }
+        .carduslugtwo>img{
+            width: 548px;
+            height: 484px;
+        }
+    .carduslugthree{
+        width: 548px;
+    }   
+        .carduslugthree>img{
+            width: 548px;
+        }
+    .carduslugfour{
+        width: 548px;
+        height: 484px;
+    }
+        .carduslugfour>img{
+            width: 548px;
+            height: 484px;
+        }
+    .menucardsuslug{
+        top: -11em;
+    }
+        #fbofbs{
+            top: -14em;
+        }
+    .glavotziv{
+        flex-direction: column;
+    }
+    .chtogovorit{
+        margin-left: 27em;
+        width: 450px;
+        height: 100%;
+    }
+    .onemainotziv{
+        margin-left: 315px;
+    }
+    .otzivone{
+        height: 445px;
+    }
+    .otzivtwo{
+        width: 657px;
+        height: 404px;
+        margin-top: 15px;
+    }
+    .twomainotziv{
+        margin-left: 315px;
+        margin-top: 15px;
+    }
+    
+    .otzivthree{
+        width: 657px;
+        height: 404px;
+    }
+    .otzivfour{
+        width: 657px;
+        height: 600px;
+    }
+    .vsedlyvas{
+        margin-left: 28em;
+        width: 350px;
+        height: 100%;
+    }
+    .svizatdiv{
+        margin-left: 24em;
+        width: 500px;
+    }
+    .fotofor{
+        display: none;
+    }
+    .linefot{
+        width: 1135px;
+    }
+    .mainstdk{
+        margin-left: 15em;
+    }
+    .iconvktginst{
+        margin-right: 65em;
+    }
+    #rightlinefot{
+        margin-left: 18.4em;
+    }
+    .textglav{
+        width: 1200px;
+    }
+    .glavniyatext{
+        width: 1200px;
+    }
+    .fotsviz{
+        display: none;
+    }
+
+}    
